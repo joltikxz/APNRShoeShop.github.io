@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HomePage</title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/footer-styles.css">
+</head>
+	
+<body>
+	<div class="toplog">
+	<center>
+		<img src="pics/nikelog.png" width="200px" height="200px"/>
+		<img src="pics/puma.png" width="200px" height="200px"/>
+		<img src="pics/rebook.png" width="200px" height="200px"/>
+		<img src="pics/adidas.png" width="200px" height="200px"/>
+		</center>
+	</div>
+	
+<nav><a id="top"></a>
+	<div class="Navbar"> 
+<div class="logo"><a href="HomePage.html"><img src="pics/logo.png" alt=""></a></div>
+<ul>
+<li><a href="index.html">Home</a></li>
+			<li>
+				<a href="#" >Shops<i class="fas fa-caret-down"></i></a>
+				
+				<div class="dropdown">
+				<ul>
+					<li><a href="puma.html">Puma</a></li>
+					<li><a href="nike.html">Nike</a></li>
+					<li><a href="adidas.html">Adidas</a></li>
+					<li><a href="reebok.html">Rebook</a></li>
+				</ul>
+				</div>
+			</li>
+<li><a href="adidas.html" >Adidas</a></li>
+<li><a href="nike.html" >Nike</a></li>
+<li><a href="ContactPage.html" >Contacts</a></li>
+<li><a href="about.html" >About</a></li>
+<li><a href="gallary.html">Gallery</a></li>
+</ul>
+	</div>
+</nav>
+	<center>
+	<div class="top-bar">
+		<p><i class="fa-sharp fa-solid fa-envelope" ></i>Email: info@company.com</p>
+		<p><i class="fa-solid fa-phone"></i>Phone: 010-020-0340</p>
+				
+				Categories
+					<select id="Day">
+					<option>New</option>
+					<option>Old</option>
+					</select>
+		
+		<div class="container">
+								<form action="https://www.google.com/search" method="get" class="search-bar">
+								<input type="text" placeholder="Search" name="q">
+									<button type="submit"><image src="sb.png" width="15" height="15"></button>
+								</form>
+							</div>	
+
+		
+	</div>	
+		
+		<div class="rectangle1">
+			<div class="navbar-b">
+				<div class="dropdown">
+					
+				</div>
+				
+
+						
+	
+					
+					
+			</div>
+		</div>
+	
+		
+	
+<div class="slideshow-container">
+<center>
+<div class="mySlides fade">
+  <img src="pics/Front1.jpg"  width="95%" height="800px">
+  <div class="text">
+	  <center>
+	  <h3 class="bold"><b>NEW</b></h3>
+	  <h4 class="tin">ARRIVAL</h4>
+	  <h3 class="tinner"> up to 5% off</h3>
+	  </center>
+	
+	</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="pics/Front2.jpg" width="95%" height="800px">
+	<div class="text">
+	  <center>
+	  <h3 class="bold"><b>HUGE SALE!!!</b></h3>
+	  <h4 class="tin">SHOP NOW!</h4>
+	  <h3 class="tinner"> <i>Up to 30% off</i><h3>
+	  </center>
+	
+	</div>
+   
+</div>
+
+<div class="mySlides fade">
+  <img src="pics/Front3.webp"  width="95%" height="800px">
+	<div class="text">
+	  <center>
+	  <h3 class="bold"><b>MEN'S SHOE</b></h3>
+	  <h4 class="tin">Collection</h4>
+	  <h3 class="tinner"> <i>New Gen</i></h3>
+	  </center>
+	
+	</div>
+  
+</div>
+
+	
+	<div class="navigate_btn">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</center>
+</div>
+	
+<br>
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	
+	
+	
+<div>
+	<div class="section">
+	<img src="pics/Section.jpg" alt="">
+	</div>
+	<div class="shopbtn">
+		<center>
+		<a href="#" >SHOP NOW</a>
+		</center>
+		</div>
+		
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div class="title">
+	<h2>Featured</h2>
+	</div>
+	
+	<div class="Arrivals">
+		<div class="Hot">
+		<video src="pics/NIK1.webm" autoplay="on" muted="on" loop="infinite"></video>
+		<h3>NIKE</h3>
+		
+		</div>
+		<div class="Hot">
+		<video src="pics/AD2.webm" autoplay="on" muted="on" loop="infinite"></video>
+		<h3>ADIDAS</h3>
+		
+		</div>
+	</div>
+	
+	
+		<div class="shops">
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<div class="title"> 
+			<h2>Who are you looking for?</h2>
+			</div>
+		
+			<div class="shopcon">
+				<div class="s1">
+					<a href="#"> 
+				<img src="pics/NIKE.webp" width="400px">
+				<h4 class="sub">Nike</h4>
+					</a>
+				
+				</div>
+				
+			
+			<div class="s1">
+				<a href="#">
+				<img src="pics/Front3.webp" width="400px">
+				<h4 class="sub">Rebooke</h4>
+				</div>
+				</a>
+			<div class="s1">
+				<a href="#">
+				<img src="pics/NIKE.webp" width="400px">
+				<h4 class="sub">Nike</h4>
+				</a>
+				</div>
+			</div>
+		
+		</div>
+	
+	</div>	
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+	<center>
+	<div class="ADSEC">
+		<div class="ADLOG">
+			<a href="#">
+		<img src="pics/ads.webp" alt="" width="200px" height="200px">
+				</a>
+		</div>
+		
+		<div class="ADtitle">
+		<a href="#">
+		<h2 class="ADS"><center>adidas</center></h2>
+		</a>
+		</div>
+		
+	</div>
+	</center>
+	
+		
+		<div class="ADV">
+		<a href="#"><video src="pics/AD1.webm" autoplay="on" muted="on" loop="infitinte"></video></a>
+	
+		</div>
+	
+	
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<div class="title">
+		<h2> NEW ARRIVALS</h2>
+	</div>
+<div class="Arrivals">
+		<div class="s2">
+		<img src="pics/n3.png" width="200px">
+		<h3>White Blue and Orange Nike Running Shoes</h3>
+		<h5>PHP 7,500.00</h5>
+		</div>
+	
+	
+	
+		<div class="s2">
+		<img src="pics/p1.jpg" width="200px">
+		<h3>nike kd15 black violet white and orange</h3>
+		<h5>PHP 8,900.00</h5>
+		</div>
+	
+	
+		<div class="s2">
+		<img src="pics/a7.png" width="200px">
+		<h3>Adidas D rose son of chi multi colors basketball shoes</h3>
+		<h5>PHP 11,600.00</h5>
+		</div>
+	
+	
+		<div class="s2">
+		<img src="pics/w3.png" width="200px">
+		<h3>nike air vapormax flyknit</h3>
+		<h5>PHP 9,500.00</h5>
+		</div>
+	</div>
+	
+	
+</body>
+</html>

@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: aliceblue;
+	background-color:#F6F4E8;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	}
+.logo img{
+	width: 30%;
+	margin-top: -50px;
+	
+}
+
+nav .logo{
+	padding:20px 20px;
+	height: 80px;
+	float: left;
+	font-size: 40px;
+	font-weight:bold;
+	color:Black;
+	}
+.rectangle{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+	opacity: 0.9;
+    align-items: left;
+    justify-content: center;
+	margin: 10px 100;
+  }
+  .rectangle1{
+    background-color: #BACEC1;
+    border-radius: 10px;
+    display: flex;
+	opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+	margin: 10px 110;
+  }
+   .rectangle2{
+    background-color: #fff ;
+    border-radius: 10px;
+    display: flex;
+	opacity: 0.9;
+    align-items: left;
+    justify-content: left;
+	margin: 10px 200;
+  }
+ margin{
+	margin: 50px 50px
+	}
+
+.toplog{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.top-bar{
+	width: 100%;
+	height: 3rem;
+	background-color:F6F4F8;
+	margin-bottom:5px;
+	display: flex;
+	padding: 0px 30px;
+	align-items: center;
+	justify-content: space-around;
+	}
+
+
+.Navbar{
+	top:0;
+	left:auto;
+	padding:1px 20px;
+	box-size: border-box;
+	background:rgba(0, 0, 0,0);
+	border-bottom: 1px solid black;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: -5px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+		0 3px 6px rgba(0,0,0,0.23);
+	
+}
+
+.logo{
+	
+	margin-left: 5%;
+}
+
+.Navbar ul{
+	list-style: none;
+	float: center;
+	margin: auto;
+	padding: 0;
+	display: flex;
+}
+
+.Navbar ul li{
+	position: relative;
+}
+
+.Navbar ul li a{
+	line-height: 100px;
+	color:black;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size:19px;
+	font-weight: bold;
+	margin-left: 0;
+	
+	transition: all 0.3s;
+}
+
+.Navbar ul li a:hover{
+	color: burlywood;
+}
+
+.dropdown{
+	display: none;
+	border: 1px solid #8DB4DF;
+	box-shadow: #8DB4DF;
+}
+.Navbar ul li:hover .dropdown{
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-color: #F6F4E8;
+}
+
+.Navbar ul li:hover .dropdown ul {
+	display: block;
+	margin: 0px;
+}
+.Navbar ul li:hover .dropdown ul li{
+	width: 110px;
+	padding: -90px;
+}
+
+
+.sec1{
+	background: #F6F4E8;
+	top: -2%;
+	
+
+}
+
+.section img{
+	width: 100%;
+	height: 300px;
+}
+
+.shopbtn{
+	margin-top: -135px;
+}
+
+.shopbtn a{
+	font-size: 35px;
+	color: black;
+	background-color: #BACEC1;
+	text-decoration: none;
+	font-family: "Lucida Bright";
+	font-weight: 300;
+	border-radius: 25%;
+	
+}
+
+.title h2{
+	margin-left: 30px;
+	font-family: "Typewriter";
+	font-weight: 300;
+	font-size: 30px;
+}
+
+.shopcon a{
+	text-decoration: none;
+}
+
+.sub{
+	color: black;
+	font-size: 19.5px;
+	font-weight: 540;
+}
+
+.shopcon{
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+	padding-left: 1px;
+}
+
+.shopcon img{
+	width: 400px;
+	height: 500px;
+}
+
+
+.ADtitle{
+	font-size: 45px;
+	position: absolute;
+	margin-bottom: 10px;
+	margin-top: -100px;
+	margin-left: 44%;
+}
+
+.ADtitle a{
+	text-decoration: none;
+	color: black;
+}
+
+.s1{
+	flex-basis: 25%;
+    padding: 15px;
+    min-width: 200px;
+    margin-bottom: 5px;
+    transition: transform 0.5s;
+}
+
+/* video */
+
+.ADV video{
+	align-content: center;
+	border-radius: 10px;
+	width: 95%;
+	margin-left: 3%;
+	margin-right: 1%;
+	margin-top: 5%;
+}
+
+.Arrivals{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.s2{
+	width: 20%;
+	margin: 15px;
+	box-sizing: border-box;
+	float: left;
+	cursor: pointer;
+	padding-top: 10px;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+		0 10px 10px rgba(0,0,0,0.25);
+	transition: 3s;
+	background: azure;
+}
+
+.s2:hover{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+		0 3px 6px rgba(0,0,0,0.23);
+	transform: translate(0px, -8px);
+	
+}
+
+.s2 img{
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	border-radius: 20px;
+}
+
+.Hot{
+	width: 35%;
+	height: 700px;
+	margin: 15px;
+	box-sizing: border-box;
+	float: left;
+	cursor: pointer;
+	padding-top: 0px;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+		0 10px 10px rgba(0,0,0,0.25);
+	transition: 3s;
+	background: azure;
+}
+
+.Hot:hover{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+		0 3px 6px rgba(0,0,0,0.23);
+	transform: translate(0px, -8px);
+	
+}
+
+.Hot video{
+	width: 100%;
+	height: 100%;
+	margin-bottom: 5px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	border-radius: 20px;
+	
+}
+
+.title h2{
+	letter-spacing: 40%;
+	font-family: "Typewritter";
+	
+}
+
+
+
+
+
+
+/* IMAGE SLIDER */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+ 
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%
+		
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: relative;
+  bottom: 8px;
+  width: 100%;
+  align-content: center;
+  margin-top: -50%;
+}
+
+.text h3{
+	font-family: "Lucida Bright";
+	font-size: 35px;
+	font-weight: 100;
+}
+.text h4{
+	font-family: "Constantia";
+	font-size: 20px;
+	
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.navigate_btn{
+	position: relative;
+	width: 100px;
+	margin-top: 175px;
+	display: flex;
+	justify-content: center;
+	margin-left: 6%;
+}
+
+.manual_btn{
+	border: 2px solid #BACEC1;
+	padding: 8px;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: 10px;
+	transition: 1s;
+}
+
+.navigate_btn:not(last-child){
+	margin-right: 40px;
+	
+}
+
+
+.Slider .slide .info{
+	position: absolute;
+	top: 1px;
+	text-align: center;
+}
+
